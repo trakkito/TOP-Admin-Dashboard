@@ -15,76 +15,88 @@
                 <button class="search-button"><img src="icons/search-icon.svg" class="search-icon"></button>
                 <input type="search" class="header-search">
             </div>
-            <div class="top-right-header"></div>
+            <div class="top-right-header">
+                <img class="noti-img" src="icons/notifications-icon.svg">
+                <img class="top-header-img" src="images/user-img.jpg">
+                <p class="top-current-user">Morgan Oakley</p>
+            </div>
         </div>
         <div class="bottom-header">
-            <div class="bottom-right-header"></div>
-            <div class="bottom-left-header"></div>
+            <div class="bottom-left-header">
+                <img class="bottom-header-img" src="images/user-img.jpg">
+                <div class="header-intro">
+                    <p class="user-greeting">Hi there, </p>
+                    <p class="current-user">Morgan Oakley (@morgan)</p>
+                </div>
+            </div>
+            <div class="bottom-right-header">
+                <button class="header-button" id="button-new">New</button>
+                <button class="header-button" id="button-upload">Upload</button>
+                <button class="header-button" id="button-share">Share</button>
+            </div>
         </div>
     </div>
     <div class="sidebar">
-        <div class="sidebar-header"></div>
-        <div class="sidebar-tabs">
-            <img class="side-tab-img" src="">
-            <p class="side-tab-name" src=""></p>
+        <div class="sidebar-header">
+            <img class="dashboard-icon" src="icons/dashboard-icon.svg">
+            <p class="side-title">Dashboard</p>
         </div>
         <div class="sidebar-tabs">
-            <img class="side-tab-img" src="">
-            <p class="side-tab-name" src=""></p>
+            <img class="side-tab-img" src="icons/home-icon.svg">
+            <p class="side-tab-name">Home</p>
         </div>
         <div class="sidebar-tabs">
-            <img class="side-tab-img" src="">
-            <p class="side-tab-name" src=""></p>
+            <img class="side-tab-img" src="icons/card-account-details-icon.svg">
+            <p class="side-tab-name">Profile</p>
         </div>
         <div class="sidebar-tabs">
-            <img class="side-tab-img" src="">
-            <p class="side-tab-name" src=""></p>
+            <img class="side-tab-img" src="icons/message-icon.svg">
+            <p class="side-tab-name">Messages</p>
         </div>
         <div class="sidebar-tabs">
-            <img class="side-tab-img" src="">
-            <p class="side-tab-name" src=""></p>
+            <img class="side-tab-img" src="icons/clock-icon.svg">
+            <p class="side-tab-name">History</p>
         </div>
         <div class="sidebar-tabs">
-            <img class="side-tab-img" src="">
-            <p class="side-tab-name" src=""></p>
+            <img class="side-tab-img" src="icons/task-icon.svg">
+            <p class="side-tab-name">Tasks</p>
+        </div>
+        <div class="sidebar-tabs" id="communities">
+            <img class="side-tab-img" src="icons/community-icon.svg">
+            <p class="side-tab-name">Communities</p>
         </div>
         <div class="sidebar-tabs">
-            <img class="side-tab-img" src="">
-            <p class="side-tab-name" src=""></p>
+            <img class="side-tab-img" src="icons/cog-icon.svg">
+            <p class="side-tab-name">Settings</p>
         </div>
         <div class="sidebar-tabs">
-            <img class="side-tab-img" src="">
-            <p class="side-tab-name" src=""></p>
+            <img class="side-tab-img" src="icons/support-icon.svg">
+            <p class="side-tab-name">Support</p>
         </div>
         <div class="sidebar-tabs">
-            <img class="side-tab-img" src="">
-            <p class="side-tab-name" src=""></p>
+            <img class="side-tab-img" src="icons/privacy-icon.svg">
+            <p class="side-tab-name">Privacy</p>
         </div>
     </div>
 
     <div class="cards-container">
         <div class="card">
-            <p class="card-title"></p>
-            <p class="card-desc"></p>
-            <div class="card-icons"></div>
+            <p class="card-title">Super Cool Project</p>
+            <p class="card-desc">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+            <div class="card-icons">
+                <img class="card-img" src="icons/star-plus-icon.svg">
+                <img class="card-img" src="icons/eye-plus-icon.svg">
+                <img class="card-img" src="icons/source-fork-icon.svg">
+            </div>
         </div>
         <div class="card">
             <p class="card-title"></p>
             <p class="card-desc"></p>
-            <div class="card-icons"></div>
-        </div>
-        <div class="card">
-            <p class="card-title"></p>
-        </div>
-        <div class="card">
-            <p class="card-title"></p>
-            <p class="card-desc"></p>
-            <div class="card-icons"></div>
-        </div>
-        <div class="card">
-            <p class="card-title"></p>
-            <p class="card-desc"></p>
-            <div class="card-icons"></div>
+            <div class="card-icons">
+                <img class="card-img" src="icons/star-plus-icon.svg">
+                <img class="card-img" src="icons/eye-plus-icon.svg">
+                <img class="card-img" src="icons/source-fork-icon.svg">
+            </div>
         </div>
         <div class="card">
             <p class="card-title"></p>
@@ -92,12 +104,41 @@
         <div class="card">
             <p class="card-title"></p>
             <p class="card-desc"></p>
-            <div class="card-icons"></div>
+            <div class="card-icons">
+                <img class="card-img" src="icons/star-plus-icon.svg">
+                <img class="card-img" src="icons/eye-plus-icon.svg">
+                <img class="card-img" src="icons/source-fork-icon.svg">
+            </div>
         </div>
         <div class="card">
             <p class="card-title"></p>
             <p class="card-desc"></p>
-            <div class="card-icons"></div>
+            <div class="card-icons">
+                <img class="card-img" src="icons/star-plus-icon.svg">
+                <img class="card-img" src="icons/eye-plus-icon.svg">
+                <img class="card-img" src="icons/source-fork-icon.svg">
+            </div>
+        </div>
+        <div class="card">
+            <p class="card-title"></p>
+        </div>
+        <div class="card">
+            <p class="card-title"></p>
+            <p class="card-desc"></p>
+            <div class="card-icons">
+                <img class="card-img" src="icons/star-plus-icon.svg">
+                <img class="card-img" src="icons/eye-plus-icon.svg">
+                <img class="card-img" src="icons/source-fork-icon.svg">
+            </div>
+        </div>
+        <div class="card">
+            <p class="card-title"></p>
+            <p class="card-desc"></p>
+            <div class="card-icons">
+                <img class="card-img" src="icons/star-plus-icon.svg">
+                <img class="card-img" src="icons/eye-plus-icon.svg">
+                <img class="card-img" src="icons/source-fork-icon.svg">
+            </div>
         </div>
     </div>
 </body>
